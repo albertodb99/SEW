@@ -1,19 +1,19 @@
 body {
       font: 400 15px Tahoma; /*Familia sans-serif*/
       line-height: 1.8;
-      color: #818181;
+      color: #000000;
       background-color: #fff;
   }
 h1 {
       background-color:#000000; 
-      color: rgb(160, 15, 15);
+      color: rgb(255, 255, 255);
       text-transform: uppercase;
       padding: 25px 25px;
       text-align: center;     
   }
 h2{
       background-color:#000000; 
-          color: rgb(160, 15, 15);
+          color: rgb(255, 255, 255);
           text-transform: uppercase;
           padding: 10px 10px;
           text-align: left;
@@ -46,7 +46,7 @@ nav ul li {
 nav ul li a {
   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
   padding: 20px;
-  color: rgb(160, 15, 15);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
  
