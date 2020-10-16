@@ -86,19 +86,19 @@ p img:last-child {
 }
 table {
   width: 100%;
-  border: 1em solid #000;
+  border: 1px solid #000;
 }
 th, td {
   width: 25%;
   text-align: left;
   vertical-align: top;
-  border: 1em solid #000;
+  border: 1px solid #000;
   border-collapse: collapse;
-  padding: 0.3em;
+  padding: 0.3px;
   caption-side: bottom;
 }
 caption {
-  padding: 0.3em;
+  padding: 0.3px;
   color: rgb(0, 0, 0);
    background: #000;
 }
