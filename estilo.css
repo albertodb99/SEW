@@ -23,6 +23,7 @@ h2{
   margin: 0;
 }
 nav {
+  
   float: left; /* Desplazamos el nav hacia la izquierda */
 }
  
@@ -69,14 +70,14 @@ p img:last-child{
   height: 200px;
   width: 400px;
   border-color: rgba(0,0,0,0);
-  margin-top: 20px;
+  margin-top: 20em;
 }
 p img:first-child {
   height: 150px;
   width: 150px;
   float: left;
   border-color: rgba(0,0,0,0);
-  margin-right: 20px;
+  margin-right: 20em;
 }
 video,audio,
 p img:last-child {
@@ -85,7 +86,7 @@ p img:last-child {
 }
 table {
   width: 100%;
-  border: 1px solid #000;
+  border: 1em solid #000;
 }
 th, td {
   width: 25%;
