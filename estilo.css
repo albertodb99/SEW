@@ -45,7 +45,7 @@ nav ul li {
 }
  
 nav ul li a {
-  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  display: grid; /* Convertimos los elementos a en elementos bloque para manipular el padding */
   padding: 20px;
   color: rgb(255, 255, 255);
   text-decoration: none;
