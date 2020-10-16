@@ -70,14 +70,14 @@ p img:last-child{
   height: 200px;
   width: 400px;
   border-color: rgba(0,0,0,0);
-  margin-top: 20em;
+  margin-top: 20px;
 }
 p img:first-child {
   height: 150px;
   width: 150px;
   float: left;
   border-color: rgba(0,0,0,0);
-  margin-right: 20em;
+  margin-right: 20px;
 }
 video,audio,
 p img:last-child {
@@ -92,7 +92,7 @@ th, td {
   width: 25%;
   text-align: left;
   vertical-align: top;
-  border: 1px solid #000;
+  border: 1em solid #000;
   border-collapse: collapse;
   padding: 0.3em;
   caption-side: bottom;
