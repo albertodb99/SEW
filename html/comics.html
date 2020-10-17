@@ -1,31 +1,30 @@
 <!DOCTYPE HTML>
 
 <html lang="es">
-<head>
-    <!-- Datos que describen el documento -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=yes">
-    <title>Blade Runner: Cómics</title>
-
-    <link rel="stylesheet" type="text/css" href="../estilo.css" />
-</head>
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=yes">
+        <title>Blade Runner: Inicio</title>
+    
+        <link rel="stylesheet" type="text/css" href="../estilo.css" />
+    </head>
 
 <body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Blade Runner</h1>
+        <nav>
+            <ul>
+                <li><a href="../html/index.html" title="Página principal">Inicio</a></li>
+                <li><a href="../html/protagonistas.html" title = "Informacion de los protagonistas">Protagonistas</a></li>
+                <li><a href="../html/sinopsis.html" title = "Resumen de la película">Sinopsis</a></li>
+                <li><a href="../html/juegos.html" title = "Juegos sobre la película">Juegos</a></li>
+                <li><a href="../html/comics.html" title = "Cómics sobre la película">Cómics</a></li>
+            </ul>
+        </nav>
+    </header>
     <article>
-        <header>
-            <!-- Datos con el contenidos que aparece en el navegador -->
-            <h1>Blade Runner</h1>
-            <nav>
-                <ul>
-                    <li><a href="../html/index.html">Inicio</a></li>
-                    <li><a href="../html/protagonistas.html">Protagonistas</a></li>
-                    <li><a href="../html/sinopsis.html">Sinopsis</a></li>
-                    <li><a href="../html/juegos.html">Juegos</a></li>
-                    <li><a href="../html/comics.html">Cómics</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
             <h2>Cómics</h2>
             <p>
                 En esta pestaña, podéis encontrar algunos cómics que se desarrollaron en base a la película.
@@ -33,20 +32,20 @@
             <div>
                 Lamentablemente, todavía no disponemos de información de cómics de esta película, ya sea porque no los 
                 hay, o porque no tenemos conocimiento sobre ellos :(
-                <audio autoplay loop controls muted
-                    src = "../multimedia/llantos.mp3">
+                <audio autoplay loop controls muted>
+                    <source src = "../multimedia/llantos.mp3"
+                        type = "audio/mpeg">
+                        Audio no disponible
                 </audio>
             </div>
-        </section>
-        
-        
-    
     </article>
-	<a href="https://validator.w3.org/check?uri=referer">
-        <img src="../images/HTML5.png" alt=" HTML5 Válido!" /></a>
-
-        <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
-            <img src="../images/CSS3.png"
-            alt="CSS Válido!" height="63" width="64"/></a>
+	<footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+            <img src="../images/HTML5.png" alt=" HTML5 Válido!" /></a>
+    
+            <a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+                <img src="../images/CSS3.png"
+                alt="CSS Válido!" height="63" width="64"/></a>
+    </footer>
 </body>
 </html>
