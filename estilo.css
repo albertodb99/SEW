@@ -85,28 +85,6 @@ p img:last-child {
   display: block;
   margin: auto;
 }
-table {
-  width: 100%;
-  border: 1px solid #000;
-}
-th, td {
-  width: 25%;
-  text-align: left;
-  vertical-align: top;
-  border: 1px solid #000;
-  border-collapse: collapse;
-  padding: 0.3px;
-  caption-side: bottom;
-}
-caption {
-  padding: 0.3px;
-  color: rgb(0, 0, 0);
-   background: #000;
-}
-th {
-  background: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-}
 
 footer{
   margin-top: 50px;
