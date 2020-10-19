@@ -66,6 +66,18 @@ header {
   z-index: 100;
 }
 
+@media (max-width: 490px) {
+  header {
+    position: static;
+  }
+  nav {
+    background-color: #222423;
+  }
+  article {
+    padding-top: 21px;
+  }
+}
+
 p img:last-child{
   display: flex;
   max-width: 75%;
