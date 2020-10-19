@@ -78,8 +78,8 @@ header {
   }
 }
 
-p img:last-child, 
-p video:last-child{
+video,
+p img:last-child{
   display: flex;
   max-width: 75%;
   max-height: 75%;
