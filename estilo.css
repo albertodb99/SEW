@@ -66,7 +66,7 @@ header {
   z-index: 100;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 520px) {
   header {
     position: static;
   }
@@ -78,7 +78,8 @@ header {
   }
 }
 
-p img:last-child{
+p img:last-child, 
+p video:last-child{
   display: flex;
   max-width: 75%;
   max-height: 75%;
@@ -86,6 +87,7 @@ p img:last-child{
   width: auto;
   border-color: rgba(0,0,0,0);
   margin-top: 20px;
+  text-align: center;
 }
 p img:first-child {
   height: 150px;
@@ -94,6 +96,7 @@ p img:first-child {
   border-color: rgba(0,0,0,0);
   margin-right: 20px;
 }
+
 video,audio,
 p img:last-child {
   display: block;
