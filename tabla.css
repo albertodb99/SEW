@@ -1,10 +1,13 @@
+/* Especificidad 001 */
 div{
   overflow-x: scroll;
 }
+/* Especificidad 001 */
 table {
   width: 100%;
   border: 1px solid #000;
 }
+/* Especificidad 000 */
 th, td {
   width: 25%;
   text-align: left;
@@ -14,11 +17,13 @@ th, td {
   padding: 0.3px;
   caption-side: bottom;
 }
+/* Especificidad 001 */
 caption {
   padding: 0.3px;
   color: rgb(0, 0, 0);
    background: #000;
 }
+/* Especificidad 001 */
 th {
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);

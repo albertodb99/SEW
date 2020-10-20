@@ -1,3 +1,4 @@
+/*Especificidad 002*/
 article video,img{
     display: flex;
     max-width: 75%;
@@ -8,7 +9,8 @@ article video,img{
     margin-top: 20px;
     text-align: center;
 }
-    
+
+/*Especificidad 002*/
 article video,audio,
 img{
     display: block;
