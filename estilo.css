@@ -78,7 +78,7 @@ padding-top: 21px;
 }
 }
 
-div video,img{
+article video,img{
 display: flex;
 max-width: 75%;
 max-height: 75%;
@@ -96,7 +96,7 @@ border-color: rgba(0,0,0,0);
 margin-right: 20px;
 }
 
-div video,audio,
+article video,audio,
 img{
 display: block;
 margin: auto;
