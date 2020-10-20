@@ -1,0 +1,16 @@
+article video,img{
+    display: flex;
+    max-width: 75%;
+    max-height: 75%;
+    height: auto;
+    width: auto;
+    border-color: rgba(0,0,0,0);
+    margin-top: 20px;
+    text-align: center;
+}
+    
+article video,audio,
+img{
+    display: block;
+    margin: auto;
+}
